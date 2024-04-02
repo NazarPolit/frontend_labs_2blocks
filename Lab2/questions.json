@@ -1,0 +1,50 @@
+{
+	"testName": "Тест з рок музики",
+	"questions": [
+		{
+			"question": "У якому році було засновано гурт The Beatles?",
+			"answers": [
+				{ "answer": "1960", "isCorrect": true },
+				{ "answer": "1950", "isCorrect": false },
+				{ "answer": "1970", "isCorrect": false },
+				{ "answer": "1980", "isCorrect": false }
+			]
+		},
+		{
+			"question": "У якому році відбувся фестиваль Woodstock?",
+			"answers": [
+				{ "answer": "170", "isCorrect": false },
+				{ "answer": "1969", "isCorrect": true },
+				{ "answer": "1971", "isCorrect": false },
+				{ "answer": "1968", "isCorrect": false }
+			]
+		},
+		{
+			"question": "У якому році вийшов альбом 'The Dark Side of the Moon' гурту Pink Floyd?",
+			"answers": [
+				{ "answer": "1973", "isCorrect": true },
+				{ "answer": "1975", "isCorrect": false },
+				{ "answer": "1971", "isCorrect": false },
+				{ "answer": "1977", "isCorrect": false }
+			]
+		},
+		{
+			"question": "У якому році був утворений гурт Led Zeppelin?",
+			"answers": [
+				{ "answer": "1970", "isCorrect": false },
+				{ "answer": "1965", "isCorrect": false },
+				{ "answer": "1968", "isCorrect": true },
+				{ "answer": "1975", "isCorrect": false }
+			]
+		},
+		{
+			"question": "У якому році відбулася прем'єра альбому 'Nevermind' гурту Nirvana?",
+			"answers": [
+				{ "answer": "1991", "isCorrect": true },
+				{ "answer": "1995", "isCorrect": false },
+				{ "answer": "1993", "isCorrect": false },
+				{ "answer": "1989", "isCorrect": false }
+			]
+		}
+	]
+}

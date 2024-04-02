@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рок форум</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @media only screen and (max-width: 768px) {
+            #header nav ul {
+                display: none;
+            }
+            #header nav ul.active {
+                display: block;
+            }
+            #header nav ul li {
+                display: block;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Ласкаво просимо на Рок форум</h1>
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="menu-icon-bar"></div>
+                <div class="menu-icon-bar"></div>
+                <div class="menu-icon-bar"></div>
+            </div>
+            <ul class="menu-list">
+                <li><a href="main.html"><span>Головна</span></a></li>
+                <li><a href="forum.html"><span>Форум</span></a></li>
+                <li><a href="about.html"><span>Про нас</span></a></li>
+                <li><a href="voit.html"><span>Опитування</span></a></li>
+                <li><a href="test.html"><span>Тест</span></a></li>
+                <li><a href="game.html"><span>Гра</span></a></li>
+            </ul>
+        </nav>
+    </div>        
+    <div id="content">
+        <div class="centered-images">
+            <img src="images/4.jpg" alt="Фредді Меркьюрі">
+            <img src="images/5.jpg" alt="Курт Кобейн">
+            <img src="images/6.jpg" alt="Джеймс Хетфілд">
+        </div>
+    </div>
+    
+    <div id="footer">
+        <p>&copy; 2024 Рок форум. Усі права захищені.</p>
+    </div>
+    
+    <script>
+        function toggleMenu() {
+            var menuList = document.querySelector('.menu-list');
+            menuList.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+  <style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+.question {
+  margin-bottom: 20px;
+}
+.question p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #444;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+label {
+  cursor: pointer;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #45a049;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #0056b3;
+}
+#results {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+  </style>
+</head>
+<body>
+  <div id="header">
+        <h1>Тест</h1>
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="menu-icon-bar"></div>
+                <div class="menu-icon-bar"></div>
+                <div class="menu-icon-bar"></div>
+            </div>
+            <ul class="menu-list">
+                <li><a href="main.html"><span>Головна</span></a></li>
+                <li><a href="forum.html"><span>Форум</span></a></li>
+                <li><a href="about.html"><span>Про нас</span></a></li>
+                <li><a href="voit.html"><span>Опитування</span></a></li>
+                <li><a href="test.html"><span>Тест</span></a></li>
+                <li><a href="game.html"><span>Гра</span></a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+    <h1>Тест з рок музики</h1>
+    <div id="questions"></div>
+    <button id="submitBtn">Перевірити відповіді</button>
+    <div id="results"></div>
+  </div>
+</body>
+<script src="/script1.js"></script>
+</html>

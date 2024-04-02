@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рок форум</title>
+    <style>
+        #header {
+            text-align: center;
+        }
+        
+        #header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        #header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        
+        #content {
+            animation: fadeIn 1s ease-in-out;
+            width: 23.5%;
+            margin-left: 7.5%;
+            background-color: #e3e3e3;
+            padding: 1%;
+            float: left;
+            font-size: 12px;
+            margin-bottom: 6%;
+            margin-top: 2%;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            #content {
+                width: 90%;
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            #header nav ul {
+                display: none;
+            }
+            #header nav ul.active {
+                display: block;
+            }
+            #header nav ul li {
+                display: block;
+            }
+            
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Рок форум</h1>
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="menu-icon-bar"></div>
+                <div class="menu-icon-bar"></div>
+                <div class="menu-icon-bar"></div>
+            </div>
+            <ul class="menu-list">
+                <li><a href="main.html"><span>Головна</span></a></li>
+                <li><a href="forum.html"><span>Форум</span></a></li>
+                <li><a href="about.html"><span>Про нас</span></a></li>
+            </ul>
+        </nav>
+    </div>        
+    <div id="content">
+        <img src="images/a.jpg">
+        <h2>Queen</h2>
+        <p>«Queen» (вимовляється «Квін», укр. «Королева») — британський рок-гурт, створений 
+            1971 року в Лондоні. Від року заснування (1971) і до смерті Фредді Мерк'юрі (1991) 
+            склад гурту залишався незмінним: Мерк'юрі — вокал, фортепіано; Браян Мей — гітара,
+             вокал; Роджер Тейлор — ударні, вокал; Джон Дікон — бас-гітара, бек-вокал. «Queen» 
+             створював свої ранні роботи під впливом від прогресивного року, хардроку і важкого металу, 
+             але поступово перейшов до традиційнішого</p>   
+    </div>
+    <div id="content">
+        <img src="images/a1.jpg">
+        <h2>Red Hot Chili Peppers</h2>
+        <p>Red Hot Chili Peppers, американський рок-гурт, заснований в 1983 році в Лос-Анджелесі, 
+            відомий своїм унікальним звучанням, що поєднує в собі рок, фанк, панк та інші жанри. 
+            Гурт складається з вокаліста Ентоні Кідіса, басиста Флі, гітариста Джоша Клінґхоффера 
+            та барабанщика Чеда Сміта. Їхні тексти часто відображають теми кохання, сексу, наркотиків 
+            та духовного пошуку. З понад 80 мільйонами проданих альбомів по всьому світу, є одними з найвпливовіших рок-гуртів світу.</p>   
+    </div>
+    <div id="content">
+        <img src="images/a2.jpg">
+        <h2>The Beatles</h2>
+        <p>The Beatles - легендарний британський гурт, що сформувався в Ліверпулі в 1960 році.
+        Склад гурту включав Джона Леннона, Пола Маккартні, Джорджа Гаррісона та Рінґо Старра. 
+        За короткий час їхньої кар'єри, The Beatles стали найбільш успішними музикантами свого часу, 
+        випустивши безліч хітів, які стали класикою рок-музики. Їхні тексти, мелодії та експерименти 
+        з звуком вплинули на багатьох музикантів та сформували музичну культуру цілої епохи.</p>   
+    </div>
+        
+    <div id="content">
+        <img src="images/a3.jpg">
+        <h2>Led Zeppelin</h2>
+        <p>Led Zeppelin, британський рок-гурт, заснований у 1968 році у Лондоні, вважається 
+            одним з найважливіших представників хард-року та хеві-металу. Склад гурту включав 
+            Джиммі Пейджа, Роберта Планта, Джона Пола Джонса та Джона Бонема. Їхні твори знамениті 
+            своєю потужною енергією, важкими рифами та епічними соло. З такими хітами, як "Stairway to Heaven"
+            та "Whole Lotta Love", Led Zeppelin стали одними з найвпливовіших гуртів в історії рок-музики.</p>
+    </div>
+    <div id="content">
+        <img src="images/a4.jpg">
+        <h2>Metallica</h2>
+        <p>Metallica - американський треш-метал гурт, заснований в 1981 році в Лос-Анджелесі. 
+            Склад гурту включає Джеймса Гетфілда, Ларса Ульріха, Кірка Геммета та Роберта Трухільо. 
+            Вони відомі своїми агресивними рифами, швидкими темпами та складними аранжуваннями. 
+            Metallica вважаються одними з найуспішніших метал-гуртів у світі, продавши понад 125 
+            мільйонів альбомів і отримавши безліч нагород.</p>   
+    </div>
+    <div id="content">
+        <img src="images/a5.jpg">
+        <h2>Guns N' Roses</h2>
+        <p>Guns N' Roses - американський хард-рок гурт, сформований у Лос-Анджелесі в 1985 році.
+             Склад гурту включав Ексла Роуза, Слеша, Даффа Маккагана, Іззі Стредліна та Стівена Адлера. 
+             Гурт отримав величезний успіх завдяки своєму енергійному звучанню, пронизливим текстам 
+             та харизматичному образу. Їхні альбоми, такі як "Appetite for Destruction", стали класикою рок-музики 
+             та продалися мільйонами копій по всьому світу.</p>   
+    </div>
+    <div id="footer">
+        <p>&copy; 2024 Рок форум. Усі права захищені.</p>
+    </div>
+    <script>
+        function toggleMenu() {
+            var menuList = document.querySelector('.menu-list');
+            menuList.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

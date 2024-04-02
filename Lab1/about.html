@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рок форум</title>
+    <style>
+        #content {
+            text-align: center; 
+        }
+        .centered-images-left,
+        .centered-images-right {
+            display: inline-block;
+        }
+        
+        .about {
+            text-align: left;
+            margin-top: 20px;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            .centered-images-left,
+            .centered-images-right {
+                display: block;
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            #header nav ul {
+                display: none;
+            }
+            #header nav ul.active {
+                display: block;
+            }
+            #header nav ul li {
+                display: block;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Про форум</h1>
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="menu-icon-bar"></div>
+                <div class="menu-icon-bar"></div>
+                <div class="menu-icon-bar"></div>
+            </div>
+            <ul class="menu-list">
+                    <li><a href="main.html"><span>Головна</span></a></li>
+                    <li><a href="forum.html"><span>Форум</span></a></li>
+                    <li><a href="about.html"><span>Про нас</span></a></li>
+            </ul>
+        </nav>
+    </div>        
+    <div id="content">
+        <div class="centered-images-left">
+            <img src="images/8.jpg" alt="Джиммі Пейдж">
+        </div>
+        <div class="centered-images-right">
+            <img src="images/9.jpg" alt="Оззі Осборн">
+        </div>
+        <div class="about">
+            <p>Рок форум - це місце, де ви можете знайти все про світ рок-музики. Ми обговорюємо легендарних виконавців, нові тренди, альбоми, концерти та багато іншого.</p>
+            <p>Приєднуйтеся до нашої спільноти рок-музикантів та шанувальників року, де ви знайдете багато цікавого для себе!</p>
+            <p>Тут ви можете обговорювати різні аспекти рок-музики, від класичних рок-гуртів до сучасних експериментів в жанрі. Наш форум відкритий для всіх, хто цікавиться рок-музикою, незалежно від вашого рівня знань чи музичних уподобань.</p>
+            <p>Будьте в курсі останніх новин, поділіться своїм досвідом та долучайтесь до цікавих дискусій з іншими ентузіастами року. Разом ми створимо живу та динамічну спільноту, яка відображає багатогранність рок-музичного світу!</p>
+        </div>
+        
+        
+    </div>
+    <div id="footer">
+        <p>&copy; 2024 Рок форум. Усі права захищені.</p>
+    </div>
+    <script>
+        function toggleMenu() {
+            var menuList = document.querySelector('.menu-list');
+            menuList.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

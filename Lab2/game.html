@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гра "Catch the Ball"</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        canvas {
+            border: 1px solid #000;
+            background-color: #f2f2f2;
+        }
+        .gamemane{
+          width: 99vw;
+          height: 80vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+  <div id="header">
+    <h1>Гра</h1>
+    <nav>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="menu-icon-bar"></div>
+            <div class="menu-icon-bar"></div>
+            <div class="menu-icon-bar"></div>
+        </div>
+        <ul class="menu-list">
+            <li><a href="main.html"><span>Головна</span></a></li>
+            <li><a href="forum.html"><span>Форум</span></a></li>
+            <li><a href="about.html"><span>Про нас</span></a></li>
+            <li><a href="voit.html"><span>Опитування</span></a></li>
+            <li><a href="test.html"><span>Тест</span></a></li>
+            <li><a href="game.html"><span>Гра</span></a></li>
+        </ul>
+    </nav>
+</div><div class="gamemane">
+    <h1>Для керування використовуйте стрілки</h1>
+    <canvas id="gameCanvas" width="480" height="320"></canvas>
+   </div>
+</body>
+ <script src="/script2.js"></script>     
+</html>
